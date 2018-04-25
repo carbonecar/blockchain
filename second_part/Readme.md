@@ -19,7 +19,7 @@ openssl genrsa -out bob_privkey.pem 2048 <br>
 openssl genrsa -out alice _privkey.pem 2048 <br>
 
 
-Also can use -des3 param for encrypt the private key <b>
+Also can use -des3 param for encrypt the private key <br>
 
 openssl genrsa -des3 -out bob_privkey.pem 2048 <br>
 
@@ -32,7 +32,7 @@ openssl rsa -in alice_privkey.pem -pubout -out alice_pubkey.pem <br>
 
 
 <b>Encript</b>:
-cat plain.txt  | openssl rsautl -encrypt -pubin -inkey ~/.ssh/id_rsa.pub.pem cipher.txt
+cat plain.txt  | openssl rsautl -encrypt -pubin -in ~/.ssh/id_rsa.pub.pem cipher.txt
 
 <b>Decrypt</b>:
 cat cipher.txt | openssl rsautl -decrypt -inkey ~/.ssh/id_rsa
