@@ -1,0 +1,2 @@
+block 0: ebaabde5446277f4ffce9aabb4e56dec625a467e405dfe543805b5779d514a03
+Alice 100 to Bob
