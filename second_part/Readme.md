@@ -32,10 +32,11 @@ openssl rsa -in alice_privkey.pem -pubout -out alice_pubkey.pem <br>
 
 
 <b>Encript</b>:
-cat plain.txt  | openssl rsautl -encrypt -pubin -in ~/.ssh/id_rsa.pub.pem cipher.txt
+cat plain.txt  | openssl rsautl -encrypt -pubin -inkey alice_pubkey.pem -out cipher.txt
+openssl rsautl -encrypt -pubin -inkey public.key -in plaintext.txt -out encrypted.txt
 
 <b>Decrypt</b>:
-cat cipher.txt | openssl rsautl -decrypt -inkey ~/.ssh/id_rsa
+cat cipher.txt | openssl rsautl -decrypt -inkey alice_privkey.pem -out plaintext.txt
 
 ### Block 0:
 Contains the balance of the 2 accounts

@@ -8,3 +8,4 @@ It's contains blocks wit transaction autentication
 
 
 ## References
+https://www.openssl.org/docs/manmaster/ <br>
