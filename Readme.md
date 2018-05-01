@@ -4,7 +4,7 @@ It's contains blocks without transaction autentication
 
 
 ## Second part
-It's contains blocks wit transaction autentication
+It's contains blocks with transaction autentication
 
 
 ## References
