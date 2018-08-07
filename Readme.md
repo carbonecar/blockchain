@@ -1,10 +1,10 @@
 # Example of blockchain
 ## First part
-It's contains blocks without transaction autentication
+It's contains blocks without transaction authentication
 
 
 ## Second part
-It's contains blocks with transaction autentication
+It's contains blocks with transaction authentication
 
 
 ## References
